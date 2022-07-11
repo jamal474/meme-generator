@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Karla, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display : flex;
+  height : 70px;
+  background : linear-gradient(to right,#009776,#00ffc8);
+  align-items: center;
+  padding : 10px;
+  box-shadow: 0px 5px 10px rgb(190, 190, 190);
+}
+
+.header > img {
+  height : 100%;
+  padding-right : 20px;
+  padding-left : 20px;
+}
+
+.header > h1 {
+  color : white;
+}
+
+main {
+  margin : 60px 140px 20px 140px;
+}
+.form {
+  display : grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap : 20px;
+}
+.form > .input1 {
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 6px;
+  font-size : 20px;
+  padding-left : 10px;
+  
+}
+
+.form > .input2 {
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 6px;
+  font-size : 20px;
+  padding-left : 10px;
+}
+
+.form > button {
+  grid-column: 1/-1;
+  border-radius : 6px;
+  border : 0px;
+  background: linear-gradient(to right,#009776,#00ffc8);;
+  font-size : 20px;
+  font-weight: 500;
+  color : white;
+  cursor : pointer;
+}
+
+.meme {
+  position  : relative;
+  font-size : 25px;
+  letter-spacing: 0.1cm;
+  font-family: Anton;
+  color : white;
+  text-shadow : 4px 4px 0px black,
+                -4px -4px 0px black;
+  font-weight: 700;
+}
+
+.meme > h2 {
+  position : absolute;
+  text-align: center;
+}
+
+.memeTopText {
+  left : 31%;
+  bottom : 75%;
+}
+
+.memeBottomText {
+  left : 31%;
+  bottom : 0%;
+}
+.meme-image {
+  width : 400px;
+  height : 400px;
+  padding-top : 10px;
+  padding-left : 30%;
 }
