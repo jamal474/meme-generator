@@ -11,4 +11,5 @@ This is a site to generator our favourite memes.
 ## Details
 1. [**ReactJS**](https://reactjs.org/) was used to create this project
 2. Meme images are obtaned from Imgflip
+3. Created during Scrimba's beginner React Series.
 
